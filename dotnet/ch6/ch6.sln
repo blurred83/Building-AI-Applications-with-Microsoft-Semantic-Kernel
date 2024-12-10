@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch6_chat", "ch6_chat\ch6_chat.csproj", "{4B60EFDC-7A6A-48BA-A959-ECFA14FA06B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch6_mem", "ch6_mem\ch6_mem.csproj", "{D8FF9C0B-F539-40F4-A839-A6FA0F7B74B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B60EFDC-7A6A-48BA-A959-ECFA14FA06B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B60EFDC-7A6A-48BA-A959-ECFA14FA06B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B60EFDC-7A6A-48BA-A959-ECFA14FA06B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B60EFDC-7A6A-48BA-A959-ECFA14FA06B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FF9C0B-F539-40F4-A839-A6FA0F7B74B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FF9C0B-F539-40F4-A839-A6FA0F7B74B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FF9C0B-F539-40F4-A839-A6FA0F7B74B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FF9C0B-F539-40F4-A839-A6FA0F7B74B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17460F71-8604-49C0-B968-52BEFB77D2DB}
+	EndGlobalSection
+EndGlobal

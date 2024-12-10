@@ -5,7 +5,6 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <NoWarn>SKEXP0060</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,11 +16,8 @@
   <ItemGroup>
     <PackageReference Include="DocumentFormat.OpenXml" Version="3.0.0" />
     <PackageReference Include="EPPlus" Version="7.0.1" />
-    <PackageReference Include="Microsoft.SemanticKernel" Version="1.8.0" />
-    <PackageReference Include="Microsoft.SemanticKernel.Connectors.OpenAI" Version="1.8.0" />
-    <PackageReference Include="Microsoft.SemanticKernel.Planners.Handlebars">
-      <Version>1.8.0-preview</Version>
-    </PackageReference>
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.0.1" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.OpenAI" Version="1.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 

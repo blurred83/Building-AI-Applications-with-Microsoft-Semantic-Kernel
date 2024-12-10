@@ -2,7 +2,7 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch7_rag", "ch7_rag.csproj", "{7AF1F950-C987-4D27-8952-A490500C3A2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch1_ex03", "ch1_ex03.csproj", "{9662F07E-98FB-49FE-A455-4365D30AC9BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,10 +10,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7AF1F950-C987-4D27-8952-A490500C3A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7AF1F950-C987-4D27-8952-A490500C3A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7AF1F950-C987-4D27-8952-A490500C3A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7AF1F950-C987-4D27-8952-A490500C3A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9662F07E-98FB-49FE-A455-4365D30AC9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9662F07E-98FB-49FE-A455-4365D30AC9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9662F07E-98FB-49FE-A455-4365D30AC9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9662F07E-98FB-49FE-A455-4365D30AC9BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
