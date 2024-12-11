@@ -23,7 +23,7 @@ async Task<string> CheckDocumentPart(Kernel kernel, string path, string part, st
     return result.ToString();
 }
 
-var (apiKey, orgId) = Settings.LoadFromFile();
+var (apiKey, orgId, _, _, _) = Settings.LoadSettings();
 
 Kernel kernel = Kernel.CreateBuilder()
                         .AddOpenAIChatCompletion("gpt-3.5-turbo", apiKey, orgId, serviceId: "gpt35")

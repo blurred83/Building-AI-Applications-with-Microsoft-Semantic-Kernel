@@ -4,7 +4,7 @@ using Azure.Search.Documents.Indexes;
 using Azure.Search.Documents.Indexes.Models;
 
 
-var (apiKey, orgId, searchServiceName, searchServiceAdminKey, searchIndexName) = Settings.LoadFromFile();
+var (apiKey, orgId, searchServiceName, searchServiceAdminKey, searchIndexName) = Settings.LoadSettings();
 
 if (string.IsNullOrEmpty(apiKey) || string.IsNullOrEmpty(searchServiceName) || string.IsNullOrEmpty(searchServiceAdminKey) || string.IsNullOrEmpty(searchIndexName))
 {

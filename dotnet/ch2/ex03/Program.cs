@@ -1,6 +1,6 @@
 ﻿using Microsoft.SemanticKernel;
 
-var (apiKey, orgId) = Settings.LoadFromFile();
+var (apiKey, orgId, _, _, _) = Settings.LoadSettings();
 
 Kernel kernel = Kernel.CreateBuilder()
                         .AddOpenAIChatCompletion("gpt-3.5-turbo", apiKey, orgId, serviceId: "gpt35")

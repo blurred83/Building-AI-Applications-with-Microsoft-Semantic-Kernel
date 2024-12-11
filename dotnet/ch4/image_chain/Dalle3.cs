@@ -20,7 +20,7 @@ public class Dalle3
             BaseAddress = new Uri("https://api.openai.com/v1/")
         };
 
-        var (apiKey, orgId) = Settings.LoadFromFile();
+        var (apiKey, orgId, _, _, _) = Settings.LoadSettings();
 
         client.DefaultRequestHeaders
             .Accept

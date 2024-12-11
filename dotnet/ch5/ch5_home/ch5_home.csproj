@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <NoWarn>SKEXP0060</NoWarn>
+    <UserSecretsId>5662d85f-2767-4926-a4bb-549fcdc0dbfc</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,8 +16,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="..\..\Shared\Settings.cs" Link="Settings.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DocumentFormat.OpenXml" Version="3.0.0" />
     <PackageReference Include="EPPlus" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.0" />
     <PackageReference Include="Microsoft.SemanticKernel" Version="1.8.0" />
     <PackageReference Include="Microsoft.SemanticKernel.Connectors.OpenAI" Version="1.8.0" />
     <PackageReference Include="Microsoft.SemanticKernel.Planners.Handlebars">

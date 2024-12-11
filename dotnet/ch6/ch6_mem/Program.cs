@@ -5,7 +5,7 @@ using Microsoft.SemanticKernel.Connectors.OpenAI;
 
 #pragma warning disable SKEXP0003, SKEXP0011, SKEXP0052
 
-var (apiKey, orgId) = Settings.LoadFromFile();
+var (apiKey, orgId, _, _, _) = Settings.LoadSettings();
 
 var builder = Kernel.CreateBuilder();
 builder.AddOpenAIChatCompletion("gpt-4-turbo-preview", apiKey, orgId);

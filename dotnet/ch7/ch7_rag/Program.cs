@@ -10,7 +10,7 @@ using System.Data.Common;
 #pragma warning disable SKEXP0001
 ISemanticTextMemory memoryWithCustomDb;
 
-var (apiKey, orgId, searchServiceName, searchServiceAdminKey, searchIndexName) = Settings.LoadFromFile();
+var (apiKey, orgId, searchServiceName, searchServiceAdminKey, searchIndexName) = Settings.LoadSettings();
                    
 if (string.IsNullOrEmpty(apiKey) || string.IsNullOrEmpty(searchServiceName) || string.IsNullOrEmpty(searchServiceAdminKey) || string.IsNullOrEmpty(searchIndexName))
 {

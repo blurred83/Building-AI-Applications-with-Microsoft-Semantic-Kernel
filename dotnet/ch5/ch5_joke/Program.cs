@@ -4,7 +4,7 @@ using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Planning.Handlebars;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 
-var (apiKey, orgId) = Settings.LoadFromFile();
+var (apiKey, orgId, _, _, _) = Settings.LoadSettings();
 
 var builder = Kernel.CreateBuilder();
 builder.AddOpenAIChatCompletion("gpt-4", apiKey, orgId);

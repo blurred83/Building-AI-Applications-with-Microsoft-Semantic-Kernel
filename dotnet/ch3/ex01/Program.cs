@@ -3,7 +3,7 @@
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Plugins.Core;
 
-var (apiKey, orgId) = Settings.LoadFromFile();
+var (apiKey, orgId, _, _, _) = Settings.LoadSettings();
 
 var builder = Kernel.CreateBuilder()
                         .AddOpenAIChatCompletion("gpt-3.5-turbo", apiKey, orgId, serviceId: "gpt35");
