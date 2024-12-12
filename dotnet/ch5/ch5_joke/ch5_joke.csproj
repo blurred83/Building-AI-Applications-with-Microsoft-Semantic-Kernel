@@ -22,10 +22,10 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.0" />
-    <PackageReference Include="Microsoft.SemanticKernel" Version="1.8.0" />
-    <PackageReference Include="Microsoft.SemanticKernel.Connectors.OpenAi" Version="1.8.0" />
-    <PackageReference Include="Microsoft.SemanticKernel.Planners.Handlebars" Version="1.8.0-preview" />
-    <PackageReference Include="Microsoft.SemanticKernel.Planners.OpenAI" Version="1.8.0-preview" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.32.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.OpenAi" Version="1.32.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Planners.Handlebars" Version="1.32.0-preview" />
+    <PackageReference Include="Microsoft.SemanticKernel.Planners.OpenAI" Version="1.32.0-preview" />
   </ItemGroup>
 
 </Project>

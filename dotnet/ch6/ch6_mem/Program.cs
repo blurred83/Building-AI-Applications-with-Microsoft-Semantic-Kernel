@@ -3,7 +3,7 @@ using Microsoft.SemanticKernel.Memory;
 using Microsoft.SemanticKernel.Plugins.Memory;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 
-#pragma warning disable SKEXP0003, SKEXP0011, SKEXP0052
+#pragma warning disable SKEXP0001, SKEXP0003, SKEXP0010, SKEXP0011, SKEXP0050, SKEXP0052
 
 var (apiKey, orgId, _, _, _) = Settings.LoadSettings();
 
