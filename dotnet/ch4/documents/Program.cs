@@ -7,7 +7,7 @@ var (apiKey, orgId, _, _, _) = Settings.LoadSettings();
 
 var builder = Kernel.CreateBuilder();
 builder.AddOpenAIChatCompletion("gpt-4", apiKey, orgId);
-builder.Plugins.AddFromPromptDirectory("../../../plugins/ProposalCheckerV2");
+builder.Plugins.AddFromPromptDirectory("../../../../../../plugins/ProposalCheckerV2");
 builder.Plugins.AddFromType<Helpers>();
 builder.Plugins.AddFromType<ParseWordDocument>();
 builder.Plugins.AddFromType<CheckSpreadsheet>();
@@ -38,7 +38,7 @@ KernelFunction pipeline = KernelFunctionCombinators.Pipe(new[] {
 }, "pipeline");
 
 
-var proposals = Directory.GetDirectories("../../../data/proposals");
+var proposals = Directory.GetDirectories("../../../../../../data/proposals");
 
 // print each directory
 foreach (var proposal in proposals)

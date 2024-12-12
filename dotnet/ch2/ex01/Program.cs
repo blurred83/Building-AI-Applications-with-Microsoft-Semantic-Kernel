@@ -8,7 +8,7 @@ Kernel kernel = Kernel.CreateBuilder()
 
 
 var pluginsDirectory = Path.Combine(System.IO.Directory.GetCurrentDirectory(), 
-        "..", "..", "..", "plugins", "prompt_engineering");
+        "..", "..", "..", "..", "..", "..", "plugins", "prompt_engineering");
 
 var promptPlugin = kernel.ImportPluginFromPromptDirectory(pluginsDirectory, "prompt_engineering");
 var result = await kernel.InvokeAsync(promptPlugin["attractions_single_variable"], new KernelArguments() {["city"] = "New York City"});

@@ -13,8 +13,7 @@ var theme = await kernel.InvokeAsync(showManagerPlugin["RandomTheme"]);
 Console.WriteLine("I will create a joke about " + theme);
 
 var pluginsDirectory = Path.Combine(System.IO.Directory.GetCurrentDirectory(), 
-        "..", "..", "..", "plugins", "jokes");
-
+        "..", "..", "..", "..", "..", "..", "plugins", "jokes");
 
 // Import the OrchestratorPlugin from the plugins directory.
 var jokesPlugin = kernel.ImportPluginFromPromptDirectory(pluginsDirectory, "jokes");

@@ -12,7 +12,7 @@ Kernel kernel = Kernel.CreateBuilder()
 
 
 var pluginsDirectory = Path.Combine(System.IO.Directory.GetCurrentDirectory(),
-        "..", "..", "..", "plugins", "jokes");
+        "..", "..", "..", "..", "..", "..", "plugins", "jokes");
 
 kernel.ImportPluginFromPromptDirectory(pluginsDirectory);
 

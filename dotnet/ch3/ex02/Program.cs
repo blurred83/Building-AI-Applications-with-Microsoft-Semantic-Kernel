@@ -31,11 +31,11 @@ Kernel kernel = Kernel.CreateBuilder()
 
 var checkerPlugin = kernel.ImportPluginFromObject(new Plugins.ProposalChecker.CheckSpreadsheet());
 var documentParser = kernel.ImportPluginFromObject(new Plugins.ProposalChecker.ParseWordDocument());
-var pluginPath = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "..", "plugins", "ProposalChecker");
+var pluginPath = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "..", "..", "..", "..", "plugins", "ProposalChecker");
 var documentReader = kernel.ImportPluginFromPromptDirectory(pluginPath, "ProposalChecker");
 
 
-string data_directory = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "..", "data", "proposals");
+string data_directory = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "..", "..", "..", "..", "data", "proposals");
 
 
 // Check for tabs

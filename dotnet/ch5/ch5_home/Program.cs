@@ -8,7 +8,7 @@ var (apiKey, orgId, _, _, _) = Settings.LoadSettings();
 var builder = Kernel.CreateBuilder();
 builder.AddOpenAIChatCompletion("gpt-4", apiKey, orgId);
 builder.Plugins.AddFromType<HomeAutomation>();
-builder.Plugins.AddFromPromptDirectory("../../../plugins/MovieRecommender");
+builder.Plugins.AddFromPromptDirectory("../../../../../../plugins/MovieRecommender");
 var kernel = builder.Build();
 
 void FulfillRequest(HandlebarsPlanner planner, string ask)

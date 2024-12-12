@@ -3,7 +3,7 @@ var (apiKey, orgId, _, _, _) = Settings.LoadSettings();
 
 var builder = Kernel.CreateBuilder();
 builder.AddOpenAIChatCompletion("gpt-3.5-turbo", apiKey, orgId);
-builder.Plugins.AddFromPromptDirectory("../../../plugins/AnimalGuesser");
+builder.Plugins.AddFromPromptDirectory("../../../../../../plugins/AnimalGuesser");
 var kernel = builder.Build();
 
 string clues = "Guess the animal from the following clues: It's a mammal, it's a pet, it barks.";

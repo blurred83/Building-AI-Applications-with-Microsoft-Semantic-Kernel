@@ -13,10 +13,6 @@ public static class Settings
         {
             builder.AddJsonFile(configFile, optional: true, reloadOnChange: true);
         }
-        else
-        {
-            Console.WriteLine($"Configuration file not found: {configFile}");
-        }
 
         // Add user secrets
         builder.AddUserSecrets<Program>(optional: true);

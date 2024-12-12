@@ -11,7 +11,7 @@ builder.AddOpenAIChatCompletion("gpt-4", apiKey, orgId);
 var kernel = builder.Build();
 
 var pluginsDirectory = Path.Combine(System.IO.Directory.GetCurrentDirectory(),
-        "..", "..", "..", "plugins", "jokes");
+        "..", "..", "..", "..", "..", "..", "plugins", "jokes");
 
 kernel.ImportPluginFromPromptDirectory(pluginsDirectory);
 
